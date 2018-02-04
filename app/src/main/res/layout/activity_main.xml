@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.airys.ardi_1202150093_modul1.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Makan Malam"
+        android:textSize="40sp"
+        android:paddingTop="40dp"
+        android:textAlignment="center"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dengan Milea"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/edMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingTop="80dp"
+        android:hint="masukkan menu"/>
+
+    <EditText
+        android:id="@+id/edPorsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingTop="25dp"
+        android:hint="jumlah"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="berapa uang kamu sekarang?" />
+
+    <EditText
+        android:id="@+id/id_uangsekarang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingTop="25dp"
+        android:hint="0"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/btn_eatbus"
+            android:layout_width="144dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="7dp"
+            android:background="@color/colorAccent"
+            android:text="EATBUS"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_abnormal"
+            android:layout_width="145dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="7dp"
+            android:background="@color/colorAccent"
+            android:text="ABNORMAL"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
